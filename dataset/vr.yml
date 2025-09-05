@@ -1,0 +1,27 @@
+#! Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /home/blitzkrieg/source/repos/Workshop/Project/Local/Yolov8_Classification/dataset
+train:
+  - VR/Real
+val:
+  - VR/Real
+test:
+  - VR/Real
+
+
+#! Classes
+names:
+  0: I_Bedroom
+  1: I_Kitchen
+  2: I_Livingroom
+  3: I_Office
+  4: I_Shop
+  5: O_Apartment
+  6: O_Factory
+  7: O_Forest
+  8: O_House
+  9: O_Land
+  10: O_Mountain
+  11: O_Road
+  12: O_Sea
+  13: O_Street
+  14: O_TallBuilding
